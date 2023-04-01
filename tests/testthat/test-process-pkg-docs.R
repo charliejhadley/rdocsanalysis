@@ -11,7 +11,7 @@ test_that("process_pkg_docs() processes all docs in a package"){
 
   parsed_dplyr_docs <- process_pkg_docs("dplyr")
 
-  # This is a bad test because the mutate.Rd script might grow in size.
+  # This is a BAD test because the mutate.Rd script might grow in size.
   expect_true(nrow(parsed_dplyr_docs) == 1087)
 
 }
