@@ -4,7 +4,17 @@
 \alias{clone_pkg_docs}
 \title{Clone package docs}
 \usage{
-clone_pkg_docs(pkg_name, check_url = FALSE)
+clone_pkg_docs(pkg_name, version_number = NA, check_url = FALSE)
+}
+\arguments{
+\item{pkg_name}{Package name, or more specifically the package repository
+name on https://github.com/cran/}
+
+\item{version_number}{Historical versions of packages are stored as releases, by
+default this is NA and the current release will be cloned. For historical
+releases provide the package version number as a string.}
+
+\item{check_url}{Check if the URL exists or not. By default this is FALSE.}
 }
 \description{
 Clone package docs

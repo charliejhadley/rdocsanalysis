@@ -2,10 +2,10 @@
 % Please edit documentation in R/process-docs.R
 \name{process_rd_page}
 \alias{process_rd_page}
-\title{Process an individual .Rd page}
+\title{Process an .Rd file into a structured tibble}
 \usage{
 process_rd_page(rd_path)
 }
 \description{
-Process an individual .Rd page
+This function takes a .Rd filepath and parses the file into a structured tibble.
 }

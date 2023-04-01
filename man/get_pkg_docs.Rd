@@ -4,8 +4,8 @@
 \alias{get_pkg_docs}
 \title{Get docs for package}
 \usage{
-get_pkg_docs(pkg_name)
+get_pkg_docs(pkg_name, version_number)
 }
 \description{
-Get docs for package
+This function gets all .Rd pages from a repo.
 }

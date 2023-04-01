@@ -22,4 +22,4 @@ example_read_file <- "~/Ap"
 split_rd_file <- regmatches(example_read_file, gregexpr(pattern, example_read_file, perl = TRUE))[[1]]
 
 
-process_rd_page
+process_rd_page("tests/testthat/mutate-content.R")
